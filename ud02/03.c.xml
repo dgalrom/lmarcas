@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<padre>
+<hijo1>
+<nombre>Juan<apellido>Perez</apellido></nombre>
+</hijo1>
+<hijo2>
+<nombre>Luis<apellido>García</nombre></apellido>
+</hijo2>
+</padre>
+<!--No tiene etiqueta raíz-->
+<!--En la etiqueta hijo2, la etiqueta apellido esta mal formada-->
