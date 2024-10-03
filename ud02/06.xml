@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura num= "999">
+        <cliente numero= "879">
+            <nombre>Jose Rodriguez</nombre>
+            <telefono>910101010</telefono>
+    </cliente>
+        <datos_factura>
+            <!--Lista de artículos-->
+            <articulo ref="A101">
+                <descripcion>Placa base QDI</descripcion>
+                <cantidad>1</cantidad>
+                <precio>230</precio>
+            </articulo>
+        </datos_factura>
+
+    </factura>
+</facturas>
