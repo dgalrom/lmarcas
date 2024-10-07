@@ -12,6 +12,16 @@
                 <cantidad>1</cantidad>
                 <precio>230</precio>
             </articulo>
+            <articulo ref="A105">
+                <descripcion>DIMM DDR 512Mb</descripcion>
+                <cantidad>4</cantidad>
+                <precio>110</precio>
+            </articulo>
+            <articulo ref="A107">
+                <descripcion></descripcion>
+                <cantidad>1</cantidad>
+                <precio>150</precio>
+            </articulo>
         </datos_factura>
 
     </factura>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda_telefonica>
+	<contacto>
+		<nombre></nombre>
+		<apellido></apellido>
+		<direccion></direccion>
+		<numero_telefono tipo="casa"></numero_telefono>
+		<numero_telefono tipo="movil"></numero_telefono>
+		<numero_telefono tipo="trabajo"></numero_telefono>
+		</contacto>
+</agenda_telefonica>

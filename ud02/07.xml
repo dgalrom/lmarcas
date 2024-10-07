@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <sopa_de_cebolla comensales= "4">
+        <ingredientes>
+            <cebollas unidad= "kilogramos">1</cebollas>
+            <caldo_res unidad= "litros">2</caldo_res>
+            <mantequilla unidad= "gramos">100</mantequilla>
+            <harina unidad= "cucharada">1</harina>
+            <queso_rallado unidad= "gramos">100</queso_rallado>
+            <rebanadas_pan_tostado/>
+            <tomillo/>
+            <laurel unidad= "hoja">1</laurel>
+            <pimienta/>
+        </ingredientes>
+        <proceso>
+            <paso num= "1">
+        </proceso>
+    </sopa_de_cebolla>
+</recetas>
