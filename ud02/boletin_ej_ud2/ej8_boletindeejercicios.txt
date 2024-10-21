@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+	<datos_personales>
+		<nombre>Diego</nombre>
+		<apellidos>Gallardo Román</apellidos>
+		<fecha_nac>10/10/2006</fecha_nac>
+		<lugar_nac>Puerto Real<lugar_nac>
+		<nacionalidad>Española</nacionalidad>
+		<numero_id>20600707</numero_id>
+		<foto></foto>
+	</datos_personales>
+	<datos_contacto>
+		<domicilio>
+			<via tipo="Avenida">Sra del Carmen</via>
+			/!--Optativo--/
+			<numero></numero>
+			<portal></portal>
+			<escalera></escalera>
+			/!--Obligatorio--/			
+			<piso>2</piso>
+			/!--Optativo--/
+			<puerta></puerta>
+			/!--Obligatorio--/
+			<c.p.>11160</c.p.>
+			<pais>España<pais>	
+		</domicilio>
+		<email>dgalrom707@g.educaand.es</email>
+		<tlf tipo="movil">625101987<tlf>
+	</datos_contacto>	
+	<datos_contacto_ad>
+		<red_social nombre= "facebook">https://facebook.com/diego<red_social>
+		<red_social nombre= "twitter">https://twitter.com/diego<red_social>
+	<formacion>
+		<estudio>		
+			<nombre>Bachillerato de las Ciencias y Tecnología<nombre>
+			<lugar>IES Trafalgar<lugar>
+			<ciudad>Barbate<ciudad>
+			<fecha_in>2022<fecha_in>
+			<fecha_fin>2024<fecha_fin>
+		</estudio>
+		
+		<estudio>		
+			<nombre>DAW<nombre>
+			<lugar>IES Trafalgar<lugar>
+			<ciudad>Barbate<ciudad>
+			<fecha_in>2024<fecha_in>
+			<fecha_fin><fecha_fin>
+		</estudio>
+		<idiomas>
+			<idioma>
+				<nombre>Inglés</nombre>
+				<nivel tipo="expresion oral">Alto</nivel>
+				<nivel tipo="escrito">Alto</nivel>
+				<nivel tipo="comprension oral">Alto</nivel>
+			</idioma>
+			
+			<idioma>
+				<nombre>Español</nombre>
+				<materno/>
+				<nivel tipo="expresion oral">Alto</nivel>
+				<nivel tipo="escrito">Alto</nivel>
+				<nivel tipo="comprension oral">Alto</nivel>
+			</idioma>
+	</formacion>
+</curriculum>
+
+
+
+
+
+
+
+
+
