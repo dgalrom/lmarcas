@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-    <!DOCTYPE BDsms SYSTEM "./info_sms.dtd">
+    <!DOCTYPE info_sms SYSTEM "./info_sms.dtd">
         <info_sms>
             <sms>
                 <telefono>955 55 76 55</telefono>
