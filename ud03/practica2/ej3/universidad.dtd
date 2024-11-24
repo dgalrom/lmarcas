@@ -1,0 +1,31 @@
+<!ELEMENT universidad (alumnos, profesores, asignaturas)>
+
+<!-- Datos personales -->
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pasaporte (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos ((apellido, apellido2) | apellido)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT direccion_postal (#PCDATA)>
+<!ELEMENT telefonos (telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT cuentas_correo (cuenta_correo+)>
+<!ELEMENT cuenta_correo (#PCDATA)>
+
+<!-- Alumnos y profesores -->
+<!ELEMENT alumno ((dni | pasaporte), nombre, apellidos, fecha_nacimiento, direccion_postal?, telefonos?, cuentas_correo?, asignaturas)>
+<!ELEMENT profesor ((dni | pasaporte), nombre, apellidos, fecha_nacimiento, direccion_postal?, telefonos?, cuentas_correo?, despacho)>
+<!ELEMENT asignaturas (asignatura+)>
+<!ELEMENT asignatura (nombre_asignatura, nota, info_asignatura)>
+<!ELEMENT nombre_asignatura (#PCDATA)>
+<!ELEMENT nota (NP | SS | AP | NT | SB | MH)>
+<!ELEMENT info_asignatura (codigo, creditos, carrera, curso, (optativa | obligatoria))>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT optativa (EMPTY)>
+<!ELEMENT obligatoria (EMPTY)>
+<!ELEMENT despacho (#PCDATA)
