@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBex</title>
+</head>
+<body>
+    <h1>Formulario 1: Datos personales</h1>
+        <form action="/action_page.php">
+        <fieldset>
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Apellidos:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        </fieldset>
+        </form><br>
+    <!--Lista de opciones-->
+    <label for="fname">¿Tienes vehículo propio?</label><br>
+        <input type="radio" id="tr1" name="vehiculopropio" value="Si">
+        <label for="vhpsi">Si</label><br>
+        <input type="radio" id="tr2" name="vehiculopropio" value="No">
+        <label for="vhpno">No</label><br><br>
+    <!--Lenguajes favoritos-->
+    <label for="transp">Selecciona tus lenguajes de marcas favoritos:</label><br>
+    <input type="checkbox" id="leng1" name="XML" value="1" unchecked>
+    <label for="leng1">XML</label><br>
+    <input type="checkbox" id="leng2" name="HTML" value="2" unchecked>
+    <label for="leng2">HTML</label><br>
+    <input type="checkbox" id="leng3" name="Markdown" value="3" unchecked>
+    <label for="leng3">Markdown</label><br>
+    </select><br>
+    <!--E-mail-->
+    <label for="lname">Introduce tu e-mail:</label>
+    <input type="text" id="email" name="email"><br><br>
+    <!--color-->
+    <label for="fname">Introduce un color:</label>
+    <input type="color"> <br><br>
+    <!--archivo-->
+    <label for="fname">Sube una imagen:</label>
+    <form method="post" enctype="multipart/form-data">
+        <input type=file name="file1">
+        </form> <br> <br>
+    <!--aceptar-->
+    <form method="post" enctype="multipart/form-data">
+        <input type=submit value="Aceptar"><br><br>
+        </form>
+    <!--reset-->
+    <input type="reset" value="Resetear valores"> <br><br>
+    <!--boton-->
+    <div>
+        <button type="reset">
+            <img src="images.jpg" width="40" height="40" alt="buttonpng" border="0" />
+        </button>    
+    </div>
+
+
+</body>
+</html>
