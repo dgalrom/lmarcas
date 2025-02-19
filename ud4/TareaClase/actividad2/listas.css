@@ -1,5 +1,5 @@
 
-p{
+li.l1{
     font-size: 1.2em;
     border: 6px;
     padding: 0.5em;
@@ -10,3 +10,30 @@ p{
     border-color: purple;
     width: 12%;
 }
+
+ul.lista1 {
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+ul.lista2 {
+    padding: 0;
+    display: flex;
+    gap: 0px;
+}
+
+li.l2 {
+    font-size: 0.4em;
+    border: 2px;
+    padding: 0.5em;
+    background-color: white;
+    color: white;
+    border-style: outset;
+    border-color: black;
+    width: 5%;
+    margin-left: 2em;
+}
+
+
+

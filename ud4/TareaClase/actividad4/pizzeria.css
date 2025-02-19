@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+.box{
+    background-color: gray;
+    padding: 30px;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+h1,p{
+    color: black;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    color: blueviolet;
+    text-align: right;
+    margin-left: 85%;
+}
+
+
+.img{
+    
+}
+
+.tlfn{
+    color: darkblue;
+}
+
+.Pizza{
+    display: grid;
+    margin: 20px;
+}
