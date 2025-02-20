@@ -10,7 +10,7 @@ if (entrada != null) {
         let valor = valores[i];
         let num = Number(valor);
         
-        if (valor == num && num != NaN) {
+        if (num != NaN) {
             if (num % 2 == 0) {
                 pares = pares + num + ", ";
             } else {
