@@ -1,0 +1,3 @@
+function BotonPresionado(){
+    alert("hola")
+}

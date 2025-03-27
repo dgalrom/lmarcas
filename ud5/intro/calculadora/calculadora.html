@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <script src="./calcScript.js"></script>
+
+</head>
+<body>
+    <div>
+        <h1>CALCULADORA SIMPLE</h1>
+        <button type="button" onclick="suma()">+</button>
+        <button type="button" onclick="rest()">-</button>
+        <button type="button" onclick="mult()">x</button>
+        <button type="button" onclick="divi()">÷</button>
+        <div>
+        <p>Operando 1</p>
+            <input type="number" id="operando_1" name="operando_1" onchange="operar()" required > 
+        </div>
+        
+        <div>
+        <p>Operando 2</p>
+            <input type="number" id="operando_2" name="operando_2" onchange="operar()" required>
+        </div>
+        
+        <div id="resultado"><p>Resultado</p>>  </div>
+
+    </div>
+</body>
+</html>
